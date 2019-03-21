@@ -1,0 +1,35 @@
+{
+  "name": "lootcheck",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "sfcookies": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "fetch-mock": "^7.0.7",
+    "jest-cli": "^20.0.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-test-renderer": "^16.5.2",
+    "redux-mock-store": "^1.5.3"
+  }
+}
